@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\lesson14IATC"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "lesson14"
+    }
+}

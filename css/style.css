@@ -1,0 +1,119 @@
+.no_boottom_margin {
+    margin-bottom: 0px;
+}
+
+.yesmargin {
+    position: relative;
+    top: 25px;
+}
+
+.rPad {
+    position: relative;
+    top: -53px;
+}
+
+.navZindexMax {
+    z-index: 2;
+}
+
+.myCaruselImg {
+    width: 100%;
+    height: 700px!important;
+    object-fit: cover;
+    object-position: 100% 0%;
+}
+
+.spZindexMax {
+    z-index: 5;
+}
+
+.sector1 {
+    width: 30%;
+    min-height: 70px;
+    text-align: center;
+    float: left;
+}
+
+.sector2 {
+    width: 30%;
+    min-height: 70px;
+    text-align: center;
+    margin: 0px 20px;
+    float: left;
+}
+
+.sector3 {
+    width: 30%;
+    min-height: 70px;
+    text-align: center;
+    float: left;
+}
+
+@media only screen and (max-width: 750px) {
+    .yesmargin {
+        top: 0px;
+    }
+    .myCaruselImg {
+        height: 300px !important;
+    }
+    .sector1 {
+        width: 100%;
+        min-height: 60px;
+    }
+    .sector2 {
+        width: 100%;
+        min-height: 60px;
+        margin: 0px !important;
+    }
+    .sector3 {
+        width: 100%;
+        min-height: 60px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .myCaruselImg {
+        height: 400px !important;
+    }
+    .sector1 {
+        width: 100%;
+        min-height: 60px;
+    }
+    .sector2 {
+        width: 100%;
+        min-height: 60px;
+    }
+    .sector3 {
+        width: 100%;
+        min-height: 60px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .myCaruselImg {
+        height: 700px !important;
+    }
+    .sector1 {
+        width: 100%;
+        min-height: 60px;
+    }
+    .sector2 {
+        width: 100%;
+        min-height: 60px;
+    }
+    .sector3 {
+        width: 100%;
+        min-height: 60px;
+    }
+}
+
+.orx {
+    width: 400px;
+    height: 150px;
+    background-color: grey;
+    float: left;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    z-index: 5;
+}
